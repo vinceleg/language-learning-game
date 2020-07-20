@@ -270,6 +270,6 @@ function parseaws(word, json) {
 function displayFinalWin() {
   window.localStorage.clear();
   setTimeout(function() {
-    window.location.href = "./win/index.html";
+    window.location.href = "./win/winner-screen.html";
   }, 200)
 }
