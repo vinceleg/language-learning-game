@@ -1,25 +1,26 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
 body#mainpage{
   margin: 0px;
   display: flex;
   align-items: center;
   height: 100vh;
-  background-image: url('../img/bgd.jpg');
+  background-image: url('../img/bg.png');
   background-size: cover;
   color: "color: rgba(50,50,50,1)";
 }
 
-/* .spacer{
-  height: 100px;
-} */
-
 #mainTitle{
   font-size: 40pt;
   font-weight: 700;
-  text-shadow: 2px 2px 	#D3D3D3;
+  text-shadow: 2px 2px 	#000000;
 }
 
 .title{
   text-align: center;
+  color: white;
 }
 
 #btnPlay{
@@ -54,4 +55,9 @@ body#container {
   position: relative;
   height: 80vh;
   width: 100%;
+}
+
+.game-select{
+  color: #f0f0f0;
+  font-weight: 300;
 }
